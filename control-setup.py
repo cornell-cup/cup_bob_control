@@ -38,5 +38,3 @@ ser = serial.Serial(UART_PORT, BAUD_RATE, timeout = 1)
 #Initialize I2C for IMUs
 bus = smbus2.SMBus(1) #I2C primary bus
 
-
-#IMU CONNECTING FUNCTION
